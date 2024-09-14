@@ -80,4 +80,3 @@ def download_images(image_links, download_folder, allow_multiprocessing=True):
     else:
         for image_link in tqdm(image_links, total=len(image_links)):
             download_image(image_link, save_folder=download_folder, retries=3, delay=3)
-        
